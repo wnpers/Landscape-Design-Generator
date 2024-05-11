@@ -1,0 +1,96 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #ff8f00;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+#backyard-preview {
+  max-width: 100%;
+  height: auto;
+}
+
+#selection-box {
+  position: absolute;
+  border: 2px solid #007bff;
+  cursor: move;
+}
+
+#design-result-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.step-label {
+  margin-bottom: 28px;
+}
+
+.step-label.active {
+  color: #007bff;
+  font-weight: bold;
+}
+/* Active step style */
+.step-label.active {
+  color: #fda13c; /* 活动步骤的文本颜色 */
+  font-weight: bold; /* 活动步骤的文本加粗 */
+}
+.image-container img {
+  text-align: center;
+  vertical-align: middle;
+}
